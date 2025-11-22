@@ -1,0 +1,501 @@
+hour,day_of_week,is_weekend,road_name,traffic_volume,avg_speed_kmh,vehicle_density,incident_flag,incident_type,weather_main,road_capacity,rolling_mean_3h,congestion_level
+6,6,1,Ben Kiwanuka Road,1622,18.43,1,1,PoliceIntervention,Clear,2000,1622,Severe
+7,6,1,Rashid Khamis Road,1975,8.76,1.32,0,None,Clear,1800,1975,High
+8,6,1,Old Kampala Road (Matia Mulumba),3229,4,1.55,0,None,Clear,2500,3229,High
+9,6,1,Ginnery Road,3120,18.07,1.25,0,None,Fog,3000,3120,High
+10,6,1,Salaama Road,1544,23.78,1.03,0,None,Clear,1800,1544,Medium
+11,6,1,Jinja Road,1333,15.32,1.07,0,None,,1500,1333,Medium
+12,6,1,Entebbe Road (Queensway section),1714,15.52,1.03,0,None,Rain,2000,1714,High
+13,6,1,Bombo Road,3366,15.09,1.35,0,None,Clear,3000,3366,High
+14,6,1,Yusuf Lule Road,1918,14.59,1.15,0,,Clear,2000,1918,Medium
+15,6,1,George Street,2457,10.65,1,0,None,Clear,3000,2457,Medium
+16,6,1,Yusuf Lule Road,1388,9.94,1.39,0,,Rain,1200,1388,High
+17,6,1,Kampala–Gayaza Road,1572,9.91,1.57,1,AbruptStop,Clouds,1200,1572,Severe
+18,6,1,George Street,2532,11.55,1.52,0,,Clear,2000,2532,High
+19,6,1,Kampala–Gayaza Road,2412,17.9,1.16,0,None,Rain,2500,2412,High
+20,6,1,Jinja Road,1672,20.72,1.11,0,None,Clouds,1800,1672,Medium
+21,6,1,George Street,1360,13.86,1.09,0,None,Clear,1500,1360,Medium
+22,6,1,Jinja Road,2143,10.16,1.03,0,None,Clouds,2500,2143,Medium
+23,6,1,Ben Kiwanuka Road,1721,15.41,1.15,0,,Clouds,1800,1721,Medium
+0,0,0,Salaama Road,2344,16.9,1,0,None,Clear,3000,2344,Medium
+1,0,0,Yusuf Lule Road,1915,12.91,1.15,0,None,Clear,2000,1915,Medium
+2,0,0,George Street,1584,13.5,1,0,None,Clear,2000,1584,Medium
+3,0,0,Jinja Road,2030,20.8,1,0,None,Clear,2500,2030,Medium
+4,0,0,Kampala–Gayaza Road,1016,15.79,1.02,0,,Clear,1200,1016,Medium
+5,0,0,Ben Kiwanuka Road,1259,18.36,1.01,0,None,Fog,1500,1259,Medium
+6,0,0,Bombo Road,1296,15.66,1.04,0,None,Clear,1500,1296,Medium
+7,0,0,Jinja Road,2105,4,1.68,1,AbruptStop,Clouds,1500,2105,Severe
+8,0,0,Kampala Northern Bypass Highway,3977,11.4,1.59,1,,Clear,3000,3977,Severe
+9,0,0,Entebbe Road (Queensway section),2133,6.92,1.42,1,LaneDisruption,Clouds,1800,2133,Severe
+10,0,0,Entebbe–Kampala Expressway,1630,18.96,1,0,None,Clouds,2000,1630,Medium
+11,0,0,Bombo Road,1192,16.64,1.19,0,None,Clear,1200,1192,Medium
+12,0,0,Yusuf Lule Road,1529,14.22,1.02,0,None,Fog,1800,1529,Medium
+13,0,0,Kampala Northern Bypass Highway,1470,14.05,1.18,0,None,Clear,1500,1470,Medium
+14,0,0,Entebbe–Kampala Expressway,1578,16.17,1.05,0,None,Rain,1800,1578,High
+15,0,0,Rashid Khamis Road,2904,20.86,1.16,0,None,Clear,3000,2904,Medium
+16,0,0,George Street,3091,4,1.48,0,None,Clear,2500,3091,High
+17,0,0,Rashid Khamis Road,1293,11.19,1.29,0,None,Clear,1200,1293,High
+18,0,0,Entebbe–Kampala Expressway,1565,18.55,1.56,0,None,Clouds,1200,1565,High
+19,0,0,Jinja Road,2697,15.73,1.08,0,None,Rain,3000,2697,High
+20,0,0,Kampala Northern Bypass Highway,1936,15.28,1.16,0,None,Clear,2000,1936,Medium
+21,0,0,Rashid Khamis Road,1618,15.99,1.08,0,,Clear,1800,1618,Medium
+22,0,0,Entebbe Road (Queensway section),1067,16.8,1.07,0,None,Clouds,1200,1067,Medium
+23,0,0,Entebbe Road (Queensway section),1059,13.68,1.06,0,None,Clear,1200,1059,Medium
+0,1,0,Entebbe–Kampala Expressway,1435,14.32,1.15,0,None,Clouds,1500,1435,Medium
+1,1,0,Kampala–Gayaza Road,1356,7.84,1.08,0,None,Rain,1500,1356,High
+2,1,0,Kampala–Jinja Highway,2369,10.58,1,0,None,Rain,3000,2369,High
+3,1,0,Kampala–Mpigi Expressway,1882,29.71,1.13,0,None,Clouds,2000,1882,Medium
+4,1,0,Jinja Road,2624,18.79,1.05,0,None,Clear,3000,2624,Medium
+5,1,0,Ben Kiwanuka Road,2480,14.99,1,0,None,Fog,3000,2480,Medium
+6,1,0,Yusuf Lule Road,2785,7.06,1.11,0,None,Clear,3000,2785,Medium
+7,1,0,Entebbe Road (Queensway section),2859,4,1.72,0,None,Clear,2000,2859,High
+8,1,0,Entebbe–Kampala Expressway,2315,7.59,1.39,0,None,Clear,2000,2315,High
+9,1,0,Yusuf Lule Road,2915,6.17,1.4,1,PoliceIntervention,Clouds,2500,2915,Severe
+10,1,0,Ginnery Road,1311,14.95,1.05,0,None,Clear,1500,1311,Medium
+11,1,0,Kampala Northern Bypass Highway,2325,21.15,1.12,0,None,Clouds,2500,2325,Medium
+12,1,0,Entebbe Road (Queensway section),1502,10.14,1.2,0,None,Clear,1500,1502,High
+13,1,0,Salaama Road,1147,16.37,1.15,0,None,Clear,1200,1147,Medium
+14,1,0,Salaama Road,1535,17.78,1.23,0,None,Clear,1500,1535,High
+15,1,0,Yusuf Lule Road,1787,13.2,1.19,0,None,Clouds,1800,1787,Medium
+16,1,0,Kampala–Gayaza Road,1857,8.27,1.49,0,None,Clouds,1500,1857,High
+17,1,0,Entebbe Road (Queensway section),1613,5.71,1.61,0,None,Clear,1200,1613,High
+18,1,0,Yusuf Lule Road,2138,,1.43,0,None,,1800,2138,High
+19,1,0,Yusuf Lule Road,2558,19.64,1.02,0,None,Clear,3000,2558,Medium
+20,1,0,Kampala–Mpigi Expressway,1672,16.24,1.11,0,None,Rain,1800,1672,High
+21,1,0,George Street,1616,15.72,1.08,0,None,Clear,1800,1616,Medium
+22,1,0,Kampala–Gayaza Road,2331,19.36,1,0,None,Clouds,3000,2331,Medium
+23,1,0,Entebbe–Kampala Expressway,1140,5.08,1.14,0,None,Clear,1200,1140,Medium
+0,2,0,Kampala–Mpigi Expressway,1676,14.02,1.12,0,None,Clouds,1800,1676,Medium
+1,2,0,Yusuf Lule Road,2290,11.63,1.1,0,None,Clouds,2500,2290,Medium
+2,2,0,Salaama Road,1254,13.63,1.25,0,None,Fog,1200,1254,High
+3,2,0,Yusuf Lule Road,1808,15.35,1.08,0,None,Clear,2000,1808,Medium
+4,2,0,George Street,1160,18.3,1,0,None,Clouds,1500,1160,Medium
+5,2,0,Old Kampala Road (Matia Mulumba),1846,13.95,1.11,0,None,Clouds,2000,1846,Medium
+6,2,0,Entebbe Road (Queensway section),1664,20.56,1.11,0,None,Clear,1800,1664,Medium
+7,2,0,Ben Kiwanuka Road,3711,,1.48,1,Accident,Clear,3000,3711,Severe
+8,2,0,George Street,1479,4,1.48,1,LaneDisruption,,1200,1479,Severe
+9,2,0,Salaama Road,3912,7.87,1.56,1,PoliceIntervention,Clear,3000,3912,Severe
+10,2,0,Entebbe Road (Queensway section),2418,9.46,1.16,0,None,Clear,2500,2418,Medium
+11,2,0,Kampala Northern Bypass Highway,2484,22.89,1,0,None,Clouds,3000,2484,Medium
+12,2,0,Yusuf Lule Road,3225,8.12,1.29,0,None,Clear,3000,3225,High
+13,2,0,Yusuf Lule Road,1259,13.03,1.01,0,None,,1500,1259,Medium
+14,2,0,Kampala–Jinja Highway,3114,6.19,1.25,0,None,Clear,3000,3114,High
+15,2,0,Entebbe–Kampala Expressway,2225,18.02,1.07,0,None,Clouds,2500,2225,Medium
+16,2,0,Yusuf Lule Road,4446,4,1.78,1,,Fog,3000,4446,Severe
+17,2,0,Ginnery Road,1721,4.56,1.72,0,None,Clear,1200,1721,High
+18,2,0,Kampala Northern Bypass Highway,3035,9.5,1.46,0,None,Fog,2500,3035,High
+19,2,0,Salaama Road,2434,16.83,1.17,0,None,Clear,2500,2434,Medium
+20,2,0,George Street,2496,12.95,1,0,None,Clear,3000,2496,Medium
+21,2,0,Kampala–Gayaza Road,1250,15.45,1,0,None,Clouds,1500,1250,Medium
+22,2,0,Old Kampala Road (Matia Mulumba),1789,13.4,1.19,0,None,Clouds,1800,1789,Medium
+23,2,0,Jinja Road,1473,15.92,1,0,None,Clear,1800,1473,Medium
+0,3,0,Salaama Road,2468,19.65,1,1,AbruptStop,Clear,3000,2468,Severe
+1,3,0,Bombo Road,1208,8.28,1,0,None,Rain,1500,1208,High
+2,3,0,Kampala–Gayaza Road,1835,,1.1,0,None,Clouds,2000,1835,Medium
+3,3,0,Yusuf Lule Road,916,17.98,1,0,None,Clear,1200,916,Medium
+4,3,0,Salaama Road,1484,7.47,1.19,0,None,Clear,1500,1484,Medium
+5,3,0,George Street,1672,10.8,1.11,0,None,Clear,1800,1672,Medium
+6,3,0,Entebbe–Kampala Expressway,1687,14.44,1.12,0,None,Clouds,1800,1687,Medium
+7,3,0,Salaama Road,2975,8.51,1.43,0,None,Clear,2500,2975,High
+8,3,0,Entebbe Road (Queensway section),1933,4,1.55,1,AbruptTurn,Clear,1500,1933,Severe
+9,3,0,Old Kampala Road (Matia Mulumba),3556,9.07,1.42,0,None,Clear,3000,3556,High
+10,3,0,Jinja Road,1373,21.25,1.1,0,None,Clouds,1500,1373,Medium
+11,3,0,Kampala–Jinja Highway,1703,15.43,1.14,0,,Clear,1800,1703,Medium
+12,3,0,Kampala–Mpigi Expressway,1532,4,1.23,0,None,Clear,1500,1532,High
+13,3,0,Salaama Road,1696,12.02,1.02,0,None,Clear,2000,1696,Medium
+14,3,0,Rashid Khamis Road,1181,15.96,1.18,0,None,Clear,1200,1181,Medium
+15,3,0,Ginnery Road,3065,14.68,1.23,0,None,Clear,3000,3065,High
+16,3,0,George Street,3353,,1.61,0,None,Clear,2500,3353,High
+17,3,0,Salaama Road,1421,7,1.42,0,None,Clear,1200,1421,High
+18,3,0,Ginnery Road,1198,15.78,1.2,1,AbruptTurn,Fog,1200,1198,Severe
+19,3,0,Entebbe Road (Queensway section),1654,,1.1,0,None,Clear,1800,1654,Medium
+20,3,0,Entebbe–Kampala Expressway,2723,18.04,1.09,0,None,Clouds,3000,2723,Medium
+21,3,0,Entebbe Road (Queensway section),2137,12.19,1.03,0,None,Clear,2500,2137,Medium
+22,3,0,Kampala Northern Bypass Highway,1841,11.13,1.1,0,None,Clear,2000,1841,Medium
+23,3,0,Kampala–Jinja Highway,1941,6.91,1.16,0,None,Clear,2000,1941,Medium
+0,4,0,Salaama Road,1277,19.31,1.02,0,None,Clouds,1500,1277,Medium
+1,4,0,Kampala–Jinja Highway,2275,10.64,1,0,None,Rain,3000,2275,High
+2,4,0,Jinja Road,2283,,1.1,0,None,Clear,2500,2283,Medium
+3,4,0,Kampala–Gayaza Road,2827,17.05,1.13,0,None,,3000,2827,Medium
+4,4,0,Salaama Road,2380,8.14,1.14,0,None,Rain,2500,2380,High
+5,4,0,Bombo Road,2760,17.98,1.1,0,None,Clear,3000,2760,Medium
+6,4,0,Kampala Northern Bypass Highway,963,10.89,1,0,,Clear,1200,963,Medium
+7,4,0,Kampala–Gayaza Road,1978,7.77,1.32,0,None,Clouds,1800,1978,High
+8,4,0,Rashid Khamis Road,3193,13.23,1.53,0,None,Fog,2500,3193,High
+9,4,0,Kampala–Mpigi Expressway,3168,5.42,1.52,0,None,,2500,3168,High
+10,4,0,Yusuf Lule Road,1088,11.26,1.09,0,None,Clear,1200,1088,Medium
+11,4,0,Rashid Khamis Road,2046,28.9,1,0,None,Clear,2500,2046,Medium
+12,4,0,Kampala–Jinja Highway,1679,21.99,1.12,0,None,,1800,1679,Medium
+13,4,0,Kampala–Jinja Highway,2740,18.25,1.1,0,None,Clear,3000,2740,Medium
+14,4,0,Jinja Road,1660,10.21,1.11,0,None,Clear,1800,1660,Medium
+15,4,0,Ginnery Road,1659,14.47,1,1,LaneDisruption,Rain,2000,1659,Severe
+16,4,0,Kampala Northern Bypass Highway,2439,6.19,1.46,0,None,Clear,2000,2439,High
+17,4,0,Kampala Northern Bypass Highway,3507,15.4,1.4,0,None,,3000,3507,High
+18,4,0,Rashid Khamis Road,1320,4.18,1.32,0,None,Clear,1200,1320,High
+19,4,0,Bombo Road,1450,13.58,1.16,1,PoliceIntervention,Clouds,1500,1450,Severe
+20,4,0,Old Kampala Road (Matia Mulumba),821,18.83,1,0,None,Rain,1200,821,Medium
+21,4,0,Old Kampala Road (Matia Mulumba),1317,11.26,1.05,0,None,Clear,1500,1317,Medium
+22,4,0,Kampala Northern Bypass Highway,996,10.29,1,0,None,Clear,1200,996,Medium
+23,4,0,Jinja Road,3316,6.25,1.33,0,None,Clear,3000,3316,High
+0,5,1,Ginnery Road,1031,24.24,1,0,None,Clear,1500,1031,Low
+1,5,1,Ginnery Road,1846,12.72,1.11,0,None,,2000,1846,High
+2,5,1,Jinja Road,1306,,1.04,0,None,Clear,1500,1306,Medium
+3,5,1,Kampala–Mpigi Expressway,924,19.42,1,0,None,Clear,1200,924,Medium
+4,5,1,Kampala–Gayaza Road,2895,4.6,1.16,0,None,Rain,3000,2895,High
+5,5,1,Entebbe–Kampala Expressway,2999,14.69,1.2,0,None,Fog,3000,2999,Medium
+6,5,1,Old Kampala Road (Matia Mulumba),1911,14.58,1,0,None,Clear,2500,1911,Medium
+7,5,1,Kampala Northern Bypass Highway,2928,4.23,1.41,0,None,Clear,2500,2928,High
+8,5,1,Ginnery Road,2880,4.02,1.38,0,None,Clouds,2500,2880,High
+9,5,1,Salaama Road,2638,18.57,1.27,0,None,Clear,2500,2638,High
+10,5,1,Old Kampala Road (Matia Mulumba),1955,13.37,1.17,0,None,Clouds,2000,1955,Medium
+11,5,1,Entebbe–Kampala Expressway,1109,7.83,1.11,0,None,,1200,1109,Medium
+12,5,1,Old Kampala Road (Matia Mulumba),2390,17.88,1,1,PoliceIntervention,Clear,3000,2390,Severe
+13,5,1,Salaama Road,1154,20.28,1,0,None,Clouds,1500,1154,Medium
+14,5,1,Yusuf Lule Road,1840,18.69,1.1,0,None,Clouds,2000,1840,Medium
+15,5,1,Ben Kiwanuka Road,1331,18.71,1.06,0,None,Clear,1500,1331,Medium
+16,5,1,Bombo Road,2784,6.66,1.67,0,None,Rain,2000,2784,Severe
+17,5,1,Old Kampala Road (Matia Mulumba),1702,9.54,1.36,1,PoliceIntervention,Clear,1500,1702,Severe
+18,5,1,Kampala Northern Bypass Highway,4317,4,1.73,0,None,Clear,3000,4317,High
+19,5,1,Kampala–Gayaza Road,1238,9.49,1.24,0,None,Clouds,1200,1238,High
+20,5,1,Entebbe–Kampala Expressway,1575,6.56,1.05,0,None,Rain,1800,1575,High
+21,5,1,George Street,1097,6.9,1.1,0,None,Rain,1200,1097,High
+22,5,1,Ben Kiwanuka Road,2416,15.58,1.16,0,None,Clear,2500,2416,Medium
+23,5,1,Ginnery Road,1737,14.31,1.16,0,None,Clear,1800,1737,Medium
+0,6,1,George Street,1614,14.3,1.08,0,None,Rain,1800,1614,High
+1,6,1,Yusuf Lule Road,957,23.11,1,0,None,Clouds,1200,957,Medium
+2,6,1,Entebbe–Kampala Expressway,1744,24.85,1,0,None,,2500,1744,Low
+3,6,1,Kampala–Gayaza Road,1276,13.55,1.28,0,None,Clouds,1200,1276,High
+4,6,1,Kampala–Mpigi Expressway,1323,19.58,1.06,0,None,Clear,1500,1323,Medium
+5,6,1,Kampala–Jinja Highway,2392,14.14,1.15,0,None,Clouds,2500,2392,Medium
+6,6,1,Rashid Khamis Road,2146,21.75,1.03,0,None,Clear,2500,2146,Medium
+7,6,1,Kampala–Gayaza Road,2602,12.19,1.56,0,None,Clear,2000,2602,High
+8,6,1,Jinja Road,1265,8.13,1.26,0,None,Clear,1200,1265,High
+9,6,1,George Street,1494,6.51,1.49,0,None,Fog,1200,1494,High
+10,6,1,Salaama Road,1659,13.07,1.11,0,None,Rain,1800,1659,High
+11,6,1,Bombo Road,1070,15.6,1.07,0,None,Clear,1200,1070,Medium
+12,6,1,Old Kampala Road (Matia Mulumba),2224,13.42,1.07,0,None,Clear,2500,2224,Medium
+13,6,1,Kampala–Gayaza Road,2823,19.07,1.13,0,None,Clear,3000,2823,Medium
+14,6,1,Rashid Khamis Road,1146,18.9,1,0,None,Clear,1500,1146,Medium
+15,6,1,Kampala Northern Bypass Highway,1540,18.71,1.03,0,None,Clear,1800,1540,Medium
+16,6,1,George Street,2540,4,1.52,0,None,Rain,2000,2540,Severe
+17,6,1,George Street,1557,4,1.56,0,None,Clear,1200,1557,High
+18,6,1,Salaama Road,2070,4.78,1.66,0,None,Clouds,1500,2070,High
+19,6,1,Kampala–Gayaza Road,1678,17.04,1.12,0,None,Clear,1800,1678,Medium
+20,6,1,Entebbe Road (Queensway section),1054,14.6,1.05,0,None,Clear,1200,1054,Medium
+21,6,1,Salaama Road,1388,,1.11,0,None,Clear,1500,1388,Medium
+22,6,1,Kampala–Mpigi Expressway,1474,13,1.18,0,None,Clear,1500,1474,Medium
+23,6,1,Salaama Road,3076,13.82,1.23,0,None,Clear,3000,3076,High
+0,0,0,Kampala–Mpigi Expressway,2856,6.49,1.14,0,None,Clear,3000,2856,Medium
+1,0,0,Kampala–Gayaza Road,2188,16.62,1.05,0,None,Clouds,2500,2188,Medium
+2,0,0,Bombo Road,1897,14.88,1.14,0,None,Clear,2000,1897,Medium
+3,0,0,Rashid Khamis Road,1440,17.79,1.15,1,Accident,Clear,1500,1440,Severe
+4,0,0,Bombo Road,1592,,1.27,0,None,Clouds,1500,1592,High
+5,0,0,Kampala–Mpigi Expressway,1555,19.9,1.04,1,AbruptStop,Rain,1800,1555,Severe
+6,0,0,Bombo Road,2267,19.01,1.09,0,None,Rain,2500,2267,High
+7,0,0,Ginnery Road,3661,4,1.46,0,None,Rain,3000,3661,Severe
+8,0,0,Salaama Road,2331,4,1.55,0,None,Clouds,1800,2331,High
+9,0,0,Kampala Northern Bypass Highway,1427,19.09,1.43,1,AbruptStop,Clear,1200,1427,Severe
+10,0,0,Kampala–Mpigi Expressway,2218,10.74,1.06,1,PoliceIntervention,Clear,2500,2218,Severe
+11,0,0,Entebbe Road (Queensway section),2217,10.13,1.06,0,None,Clear,2500,2217,Medium
+12,0,0,Jinja Road,1858,8.24,1.11,0,,Clear,2000,1858,Medium
+13,0,0,Old Kampala Road (Matia Mulumba),2913,,1.17,0,None,Clear,3000,2913,Medium
+14,0,0,Kampala Northern Bypass Highway,2215,12.76,1.06,0,None,Clear,2500,2215,Medium
+15,0,0,Kampala–Jinja Highway,2301,16.63,1.1,0,None,Clouds,2500,2301,Medium
+16,0,0,Entebbe Road (Queensway section),1579,4.52,1.58,0,None,Clear,1200,1579,High
+17,0,0,Kampala–Gayaza Road,1782,9.01,1.43,1,Accident,Clear,1500,1782,Severe
+18,0,0,Old Kampala Road (Matia Mulumba),2197,4,1.76,0,None,Rain,1500,2197,Severe
+19,0,0,Kampala–Gayaza Road,1865,17.74,1.24,0,None,Clouds,1800,1865,High
+20,0,0,Entebbe Road (Queensway section),1501,15.22,1.2,0,None,Clouds,1500,1501,High
+21,0,0,Kampala–Jinja Highway,2144,16.1,1.29,0,None,Clouds,2000,2144,High
+22,0,0,Ginnery Road,1058,10.75,1.06,0,None,Clouds,1200,1058,Medium
+23,0,0,Entebbe Road (Queensway section),2723,9.34,1.31,0,None,Clear,2500,2723,High
+0,1,0,Kampala–Mpigi Expressway,2373,18.63,1.14,0,None,Clear,2500,2373,Medium
+1,1,0,Bombo Road,1625,15.62,1.08,0,None,Clear,1800,1625,Medium
+2,1,0,Kampala–Mpigi Expressway,2961,12.84,1.18,0,None,Clouds,3000,2961,Medium
+3,1,0,Rashid Khamis Road,2004,,1,1,PoliceIntervention,Fog,2500,2004,Severe
+4,1,0,George Street,1786,13.86,1.07,0,None,Clouds,2000,1786,Medium
+5,1,0,Rashid Khamis Road,2486,11.32,1,0,None,Clear,3000,2486,Medium
+6,1,0,Salaama Road,1118,11.36,1.12,0,None,Rain,1200,1118,High
+7,1,0,Jinja Road,1761,13.86,1.41,0,,Clear,1500,1761,High
+8,1,0,Ginnery Road,4004,4,1.6,0,None,Clear,3000,4004,High
+9,1,0,George Street,2176,15.71,1.31,1,Roadworks,Clouds,2000,2176,Severe
+10,1,0,Ginnery Road,1598,19.45,1.07,0,None,Clear,1800,1598,Medium
+11,1,0,Entebbe Road (Queensway section),2660,10.91,1.06,0,None,Clouds,3000,2660,Medium
+12,1,0,George Street,2903,18.6,1.16,0,None,Clear,3000,2903,Medium
+13,1,0,Entebbe Road (Queensway section),1827,19.26,1.1,1,Roadworks,Clear,2000,1827,Severe
+14,1,0,George Street,2223,10.55,1.07,0,None,Rain,2500,2223,High
+15,1,0,Jinja Road,1822,15.57,1.09,0,None,Rain,2000,1822,High
+16,1,0,Bombo Road,2498,9.54,1.5,0,None,Clear,2000,2498,High
+17,1,0,Kampala–Mpigi Expressway,4296,4,1.72,0,None,Rain,3000,4296,Severe
+18,1,0,Bombo Road,2016,9.63,1.61,0,None,Clear,1500,2016,High
+19,1,0,Jinja Road,1627,19.78,1,0,None,Clouds,2000,1627,Medium
+20,1,0,Salaama Road,1109,11.65,1.11,1,Roadworks,Fog,1200,1109,Severe
+21,1,0,George Street,1110,16.34,1.11,0,None,Clouds,1200,1110,Medium
+22,1,0,Rashid Khamis Road,1147,14.44,1,0,None,Clouds,1500,1147,Medium
+23,1,0,Bombo Road,2190,20.98,1.05,0,None,Rain,2500,2190,High
+0,2,0,George Street,2030,11.38,1,0,None,Clear,2500,2030,Medium
+1,2,0,Entebbe Road (Queensway section),1939,16.72,1,0,None,Clear,2500,1939,Medium
+2,2,0,Yusuf Lule Road,1856,16.35,1.24,0,None,Clouds,1800,1856,High
+3,2,0,Entebbe–Kampala Expressway,2261,19.61,1.09,1,AbruptStop,Clear,2500,2261,Severe
+4,2,0,Entebbe Road (Queensway section),2539,5.36,1.22,0,None,Clear,2500,2539,High
+5,2,0,Ben Kiwanuka Road,2905,17.61,1.16,0,None,Clear,3000,2905,Medium
+6,2,0,Kampala–Jinja Highway,2199,17.12,1.06,0,None,Rain,2500,2199,High
+7,2,0,Old Kampala Road (Matia Mulumba),1844,,1.23,0,None,Clear,1800,1844,High
+8,2,0,Ginnery Road,2642,4,1.59,0,None,Clouds,2000,2642,High
+9,2,0,Rashid Khamis Road,1812,4.55,1.45,0,None,Clear,1500,1812,High
+10,2,0,Ben Kiwanuka Road,927,19.77,1,0,None,Fog,1200,927,Medium
+11,2,0,Ben Kiwanuka Road,2561,16.47,1.02,0,None,Clouds,3000,2561,Medium
+12,2,0,Ben Kiwanuka Road,2711,15.28,1.08,0,None,Clear,3000,2711,Medium
+13,2,0,Yusuf Lule Road,1438,12.89,1.15,0,None,Clouds,1500,1438,Medium
+14,2,0,Kampala–Jinja Highway,2463,7.42,1.18,0,None,,2500,2463,High
+15,2,0,Entebbe–Kampala Expressway,1760,11.13,1.06,0,None,Clear,2000,1760,Medium
+11,5,1,Entebbe–Kampala Expressway,992.68,7.66,1.03,0,None,Clear,1308.88,1133.04,Medium
+17,5,1,Old Kampala Road (Matia Mulumba),1747.19,9.78,1.31,1,PoliceIntervention,nan,1617.32,1767.36,Severe
+20,1,0,Salaama Road,992.2,10.2,1.11,1,Roadworks,Clear,1324.19,1112.5,Medium
+1,4,0,Kampala–Jinja Highway,2350.38,11.46,1.04,0,None,nan,2938.7,2368.27,High
+5,5,1,Entebbe–Kampala Expressway,3151.27,14.94,1.18,0,None,Fog,2846.81,3258.98,Severe
+20,4,0,Old Kampala Road (Matia Mulumba),842.8,17.71,1.07,0,None,Clouds,1285.45,726.79,Severe
+22,5,1,Ben Kiwanuka Road,2476.3,14.85,1.05,0,None,Fog,2605.91,2304.65,High
+17,6,1,George Street,1577.8,3.68,1.48,0,None,nan,1336.33,1437.42,Low
+17,6,1,Kampala–Gayaza Road,1579.9,10.06,1.61,1,AbruptStop,Clouds,1138.88,1690.05,Severe
+3,3,0,Yusuf Lule Road,934.97,18.77,1,0,None,Clouds,1218.41,920.83,Medium
+16,4,0,Kampala Northern Bypass Highway,2356.95,5.91,1.48,0,None,nan,1962.05,2380.8,Severe
+22,0,0,Entebbe Road (Queensway section),1007.54,16.19,0.96,0,None,Rain,1160.41,1001.71,High
+6,4,0,Kampala Northern Bypass Highway,973.46,11.17,0.9,0,,nan,1212.95,984.13,Medium
+1,1,0,Kampala–Gayaza Road,1421.43,7.55,1.07,0,None,Fog,1471.25,1302.49,Severe
+13,0,0,Kampala Northern Bypass Highway,1450.01,14.39,1.2,0,None,Clouds,1379.44,1473.46,Medium
+16,2,0,Yusuf Lule Road,4468.31,3.87,1.81,1,,nan,2798.88,4611.85,High
+6,3,0,Entebbe–Kampala Expressway,1661.29,13.86,1.16,0,None,Clear,1756.04,1682.9,Severe
+19,3,0,Entebbe Road (Queensway section),1719.57,,1.07,0,None,Clear,1620.45,1629.98,High
+8,6,1,Jinja Road,1277.95,7.54,1.16,0,None,nan,1203.24,1204.15,High
+12,2,0,Yusuf Lule Road,3477.51,8.72,1.29,0,None,Rain,3133.19,3337.24,Low
+8,2,0,Ginnery Road,2814.99,3.79,1.57,0,None,Clear,1944.6,2653.79,Severe
+22,0,0,Ginnery Road,1001.73,11.04,1.1,0,None,Fog,1274.21,1093.62,Low
+18,6,1,George Street,2330.96,11.66,1.46,0,,Clear,1925.31,2487.18,High
+16,2,0,Yusuf Lule Road,4305.47,4.22,1.72,1,,Clouds,2842.94,4286.92,Medium
+2,0,0,Bombo Road,1915.63,15.74,1.13,0,None,Clouds,2026.1,2016.9,Severe
+10,2,0,Ben Kiwanuka Road,845.41,19.24,1.03,0,None,Rain,1213.84,1014.35,Severe
+1,1,0,Kampala–Gayaza Road,1333.62,7.09,0.99,0,None,Clouds,1586.22,1325.94,Severe
+2,5,1,Jinja Road,1258.68,,1,0,None,Clouds,1468.16,1340.21,Severe
+16,2,0,Yusuf Lule Road,4375.3,4.01,1.72,1,,nan,2897.94,4700.99,Severe
+10,1,0,Ginnery Road,1625.47,20.27,1.07,0,None,Fog,1722.88,1596.64,Severe
+0,3,0,Salaama Road,2707.42,21.39,1,1,AbruptStop,Clouds,2925.28,2720.94,High
+3,3,0,Yusuf Lule Road,915.69,16.36,0.99,0,None,Clouds,1203.29,866.81,Low
+16,5,1,Bombo Road,2839.45,6.69,1.71,0,None,Clouds,2037.3,2943.56,Low
+13,0,0,Old Kampala Road (Matia Mulumba),3198.02,,1.22,0,None,nan,2950.21,2869.85,Low
+9,6,1,George Street,1642.83,6.89,1.45,0,None,Rain,1295.26,1380.75,Severe
+0,3,0,Salaama Road,2366.82,18.52,0.98,1,AbruptStop,Clear,3271.54,2449.18,Medium
+0,0,0,Salaama Road,2433.4,18.33,0.93,0,None,nan,2988.2,2373.45,Medium
+3,5,1,Kampala–Mpigi Expressway,947.9,18.62,0.99,0,None,Rain,1152.32,925.63,Low
+14,3,0,Rashid Khamis Road,1166.57,17.76,1.22,0,None,Clouds,1197.56,1259.55,Severe
+0,3,0,Salaama Road,2174.87,20.26,0.98,1,AbruptStop,Clouds,3051.06,2624.16,Severe
+11,1,0,Kampala Northern Bypass Highway,2535.96,20.7,1.12,0,None,Clear,2495.74,2381.99,Low
+15,3,0,Ginnery Road,3173.88,13.97,1.19,0,None,Fog,3014.78,3379.26,Severe
+6,4,0,Kampala Northern Bypass Highway,979.1,10.55,0.96,0,,Clear,1285.75,977.14,Severe
+13,2,0,Yusuf Lule Road,1133.05,10.7,0.98,0,None,Fog,1497.38,1177.65,Low
+17,1,0,Kampala–Mpigi Expressway,4340.1,3.66,1.69,0,None,Clear,3103.45,4090.66,Medium
+10,6,1,Salaama Road,1562.81,25.89,0.98,0,None,Rain,1795,1507.51,High
+14,2,0,Kampala–Jinja Highway,2350.59,6.85,1.23,0,None,nan,2510.39,2234.74,Medium
+16,5,1,Bombo Road,2836.85,6.72,1.76,0,None,Fog,1988.45,2681.59,Severe
+4,3,0,Salaama Road,1435.17,7.67,1.16,0,None,nan,1615.66,1488.88,Low
+13,1,0,Entebbe Road (Queensway section),1866.14,19.97,1.1,1,Roadworks,Fog,2085.85,1916.01,Severe
+6,4,0,Kampala Northern Bypass Highway,1025.28,10.75,1,0,,Clouds,1193.09,918.94,Severe
+18,6,1,Salaama Road,2096.51,5.2,1.73,0,None,nan,1505.42,1951.58,Low
+4,1,0,Jinja Road,2554.94,20,1.05,0,None,Rain,2925.43,2641.84,Severe
+5,1,0,Ben Kiwanuka Road,2396.7,14.95,0.95,0,None,Clouds,3140.59,2693.22,Medium
+1,4,0,Kampala–Jinja Highway,2478.63,11.07,1.08,0,None,Fog,3030.91,2312.63,Severe
+9,4,0,Kampala–Mpigi Expressway,3187.6,5.82,1.51,0,None,nan,2408.68,2988.7,Severe
+0,2,0,George Street,2028.94,11.38,1.04,0,None,Fog,2350.15,2002.34,Severe
+5,6,1,Kampala–Jinja Highway,2353.63,13.27,1.25,0,None,Clouds,2607.5,2538.9,High
+23,3,0,Kampala–Jinja Highway,1727.9,7.06,1.22,0,None,Fog,2099.48,1866.14,High
+15,0,0,Rashid Khamis Road,2984.2,21.01,1.17,0,None,Clear,3070.11,2937.49,Low
+16,1,0,Kampala–Gayaza Road,1956.63,8.12,1.37,0,None,Clear,1472.44,1827.34,High
+6,0,0,Bombo Road,1325.63,16.06,1.04,0,None,Fog,1521.68,1272.1,Low
+8,6,1,Jinja Road,1337.56,8.28,1.21,0,None,Clear,1255.87,1274.97,Medium
+1,6,1,Yusuf Lule Road,983.69,23.43,0.98,0,None,Clouds,1160.31,1006.66,High
+18,0,0,Entebbe–Kampala Expressway,1596.76,17.17,1.74,0,None,Rain,1215.53,1400.95,High
+17,4,0,Kampala Northern Bypass Highway,3653.53,15.2,1.35,0,None,Clear,2891.08,3339.98,Medium
+6,0,0,Bombo Road,1385.83,16.39,1.12,0,None,Fog,1465.62,1285.52,Medium
+8,4,0,Rashid Khamis Road,3063.65,13.72,1.55,0,None,nan,2527.62,3141.2,Severe
+4,2,0,George Street,1218.78,20.25,1,0,None,Rain,1491.38,1167.78,Severe
+10,4,0,Yusuf Lule Road,1083.65,10.86,1.21,0,None,Clear,1167.78,1082.87,High
+1,5,1,Ginnery Road,1858.55,13.17,1.03,0,None,Rain,2066.69,1820.65,Medium
+22,6,1,Kampala–Mpigi Expressway,1450.45,13.26,1.21,0,None,Clouds,1554.37,1483.5,Low
+23,6,1,Salaama Road,3020.7,14.09,1.22,0,None,nan,3207.71,3385.93,Medium
+7,2,0,Ben Kiwanuka Road,3597.1,,1.45,1,Accident,Clear,2789.78,3635.69,Low
+21,5,1,George Street,1069.96,7.18,1.06,0,None,Clouds,1171.64,1032.3,Low
+23,5,1,Ginnery Road,1727.56,14.33,1.12,0,None,Clouds,1704.88,1767.17,Low
+5,0,0,Ben Kiwanuka Road,1217.66,18.2,1.01,0,None,Clear,1338.6,1374.27,Low
+18,4,0,Rashid Khamis Road,1323.36,4.44,1.45,0,None,Fog,1143.37,1370.11,High
+22,0,0,Ginnery Road,1066.43,11.38,0.96,0,None,Rain,1156.19,1087.81,Low
+22,6,1,Jinja Road,2219.92,9.19,1.03,0,None,Rain,2628.79,2249.11,Low
+6,4,0,Kampala Northern Bypass Highway,903.23,11.07,0.93,0,,Clear,1064.04,996.9,Severe
+14,2,0,Kampala–Jinja Highway,3078.29,5.96,1.16,0,None,Rain,3341.43,3389.41,Low
+2,6,1,Entebbe–Kampala Expressway,1960.62,25.03,1.06,0,None,Clear,2627.23,1720.78,Medium
+10,6,1,Salaama Road,1636.62,23,0.96,0,None,Fog,1844.29,1319.45,Severe
+23,0,0,Entebbe Road (Queensway section),1135.67,12.97,1.07,0,None,Fog,1166.96,1051.26,Low
+3,1,0,Rashid Khamis Road,1923.58,,0.91,1,PoliceIntervention,Rain,2439,1938.45,Severe
+0,3,0,Salaama Road,2268.74,20.02,1.1,1,AbruptStop,Clouds,2910.8,2389.16,Medium
+10,2,0,Ben Kiwanuka Road,939.23,17.67,0.93,0,None,nan,1214.78,1013.77,Low
+22,3,0,Kampala Northern Bypass Highway,1903.66,11.57,1,0,None,Fog,1928.04,1694.81,Medium
+7,5,1,Kampala Northern Bypass Highway,2809.51,4.05,1.49,0,None,Rain,2390.61,2963.63,Medium
+0,1,0,Entebbe–Kampala Expressway,1563.21,14.98,1.11,0,None,nan,1614.63,1559.36,Medium
+6,2,0,Kampala–Jinja Highway,2225.23,17.78,1.08,0,None,Fog,2377.31,2163.23,High
+13,6,1,Kampala–Gayaza Road,2886.59,19.59,1.01,0,None,Rain,3063.14,2949.55,High
+3,1,0,Rashid Khamis Road,1939.42,,1.01,1,PoliceIntervention,Rain,2651.76,1991.25,High
+1,4,0,Kampala–Jinja Highway,2371.22,10.42,0.91,0,None,Clouds,2983.2,2303.11,High
+6,5,1,Old Kampala Road (Matia Mulumba),1762.82,15.92,1.02,0,None,Clear,2292.62,2082.76,Medium
+6,4,0,Kampala Northern Bypass Highway,1005.53,11.22,1.05,0,,Fog,1210.73,954.99,Medium
+13,1,0,Salaama Road,1213.32,17.16,1.13,0,None,Rain,1231.34,1182.94,High
+3,1,0,Kampala–Mpigi Expressway,1884.62,29.21,1.15,0,None,nan,1942.61,1781.99,Severe
+0,1,0,Entebbe–Kampala Expressway,1439.07,14.85,1.15,0,None,Clear,1507.55,1402.55,Severe
+13,6,1,Bombo Road,3493.14,15.49,1.27,0,None,Rain,2780.5,3218.09,Severe
+3,5,1,Kampala–Mpigi Expressway,899.63,19.18,1.01,0,None,Clouds,1150.76,923.67,Low
+10,2,0,Entebbe Road (Queensway section),2460.83,9.26,1.13,0,None,Clear,2539.21,2233.98,Low
+4,2,0,Entebbe Road (Queensway section),2489.98,4.81,1.24,0,None,nan,2405.45,2601.02,Low
+7,1,0,Entebbe Road (Queensway section),2728.84,3.57,1.78,0,None,Clouds,1890.09,2715.51,Low
+11,5,1,Entebbe–Kampala Expressway,1094.33,7.39,1.05,0,None,Clouds,1281.91,1099.53,Medium
+4,0,0,Bombo Road,1637.48,,1.17,0,None,Clear,1453.89,1399.14,Severe
+7,0,0,Jinja Road,2258.2,3.94,1.6,1,AbruptStop,Rain,1421.41,1937.74,High
+7,0,0,Jinja Road,1958.34,4.48,1.53,1,AbruptStop,Fog,1484.69,2122.84,Low
+18,1,0,Yusuf Lule Road,2115.87,,1.48,0,None,nan,1910.42,2001.29,High
+0,0,0,Salaama Road,2326.62,16.2,1.03,0,None,Clouds,3167.82,2743.21,Medium
+2,1,0,Kampala–Mpigi Expressway,3203.69,12.89,1.21,0,None,Clouds,2909.33,2943.51,Low
+14,3,0,Rashid Khamis Road,1068.85,14.82,1.17,0,None,Clear,1286.97,1228.24,Low
+6,6,1,Rashid Khamis Road,2168.18,22.88,1.01,0,None,nan,2580.78,2027.84,Medium
+1,5,1,Ginnery Road,1906.64,11.44,1.14,0,None,Clear,2073.54,1759.98,Severe
+18,0,0,Old Kampala Road (Matia Mulumba),2310.21,4.28,1.88,0,None,Clear,1541.64,2335.2,Low
+1,2,0,Entebbe Road (Queensway section),1749.93,17.39,1.03,0,None,Clouds,2487.11,1985.84,Medium
+1,5,1,Ginnery Road,1789.72,13.04,1.06,0,None,Clear,2156.92,1805.04,Medium
+22,5,1,Ben Kiwanuka Road,2299.11,17.26,1.15,0,None,Fog,2459.62,2482.83,Low
+21,6,1,George Street,1409.67,14.6,1.11,0,None,Rain,1430.07,1333.24,Low
+18,5,1,Kampala Northern Bypass Highway,4413.55,3.82,1.8,0,None,Clouds,3115.37,4340.3,Medium
+19,4,0,Bombo Road,1464.27,14.1,1.24,1,PoliceIntervention,Rain,1511.08,1634.82,Low
+18,0,0,Old Kampala Road (Matia Mulumba),2263.09,3.93,1.89,0,None,nan,1398.44,2229.68,Medium
+2,6,1,Entebbe–Kampala Expressway,1738.87,24,1.03,0,None,Clouds,2327.35,1783.74,Low
+1,1,0,Kampala–Gayaza Road,1374.39,8.11,1.06,0,None,Rain,1518.39,1276.88,Medium
+22,6,1,Jinja Road,2112.22,9.63,1.13,0,None,Clear,2634.71,2207.56,Low
+20,5,1,Entebbe–Kampala Expressway,1548.73,6.69,1.02,0,None,Clear,1721.76,1599.12,Severe
+22,5,1,Ben Kiwanuka Road,2483.8,15.49,1.25,0,None,Fog,2680.4,2386.38,Medium
+20,6,1,Jinja Road,1659.82,19.71,1.09,0,None,Clouds,1982.3,1814.39,Medium
+3,1,0,Kampala–Mpigi Expressway,1930.9,28.6,1.11,0,None,Rain,2085.71,1805.85,Severe
+0,2,0,George Street,2047.86,11.45,1.04,0,None,Clouds,2468.26,2031.25,Low
+18,6,1,George Street,2367.53,11.69,1.54,0,,Clouds,1941.93,2380.32,High
+12,4,0,Kampala–Jinja Highway,1754.64,20.02,1.08,0,None,Rain,1868.06,1646,Medium
+8,6,1,Old Kampala Road (Matia Mulumba),3451.64,3.86,1.56,0,None,nan,2454.08,3030.03,High
+2,0,0,George Street,1533.43,13.08,0.95,0,None,Fog,1952.62,1683.21,Severe
+10,3,0,Jinja Road,1391.19,21.06,1.06,0,None,Clear,1538.6,1323.26,Low
+19,2,0,Salaama Road,2521.07,17.07,1.2,0,None,nan,2465.82,2367.25,Low
+12,6,1,Old Kampala Road (Matia Mulumba),2266.23,12.76,0.98,0,None,nan,2526.45,2190.1,Severe
+9,4,0,Kampala–Mpigi Expressway,3314.8,5.83,1.37,0,None,Clouds,2369.62,3151.3,Medium
+20,1,0,Salaama Road,1154.11,12.17,1.23,1,Roadworks,Clear,1168.35,1218.97,Low
+6,6,1,Ben Kiwanuka Road,1573.68,18.6,1.08,1,PoliceIntervention,nan,2038.81,1642.28,Low
+12,5,1,Old Kampala Road (Matia Mulumba),2212.51,19.4,0.98,1,PoliceIntervention,Clear,3099.26,2312.67,Medium
+4,1,0,Jinja Road,2694.29,17.77,1.02,0,None,Clear,2946.11,2689.34,Medium
+11,6,1,Bombo Road,1065.81,14.4,1.15,0,None,Clear,1156.39,1142.8,High
+1,4,0,Kampala–Jinja Highway,2275.07,10.91,1.01,0,None,nan,2920.37,1966.56,High
+1,3,0,Bombo Road,1182.17,8.84,1.03,0,None,nan,1448.12,1208.26,Medium
+21,3,0,Entebbe Road (Queensway section),2094.21,11.85,1.13,0,None,Clear,2433.42,2174.08,Low
+8,2,0,Ginnery Road,2690.85,3.66,1.58,0,None,Fog,2244.09,2734.32,Low
+18,1,0,Bombo Road,1990.81,9.74,1.55,0,None,Fog,1554.8,2178.16,High
+10,0,0,Kampala–Mpigi Expressway,2017.9,9.97,0.96,1,PoliceIntervention,Clear,2633.43,2323.45,Severe
+9,0,0,Kampala Northern Bypass Highway,1482.96,19.55,1.39,1,AbruptStop,nan,1288.78,1532.46,Medium
+23,0,0,Entebbe Road (Queensway section),2680.84,8.95,1.35,0,None,Fog,2483.25,2531.89,Severe
+14,6,1,Rashid Khamis Road,1224.45,18.33,1.01,0,None,nan,1734.39,1189.67,Medium
+16,5,1,Bombo Road,2944.95,6.31,1.68,0,None,Fog,2012.67,2751.32,Low
+8,1,0,Entebbe–Kampala Expressway,2291.01,6.91,1.28,0,None,Clouds,1903.96,2368.83,Medium
+8,4,0,Rashid Khamis Road,2710.4,14.7,1.6,0,None,Fog,2372.99,3422.47,Low
+9,1,0,George Street,2326.43,15.7,1.39,1,Roadworks,Rain,2043.78,1934.53,Medium
+23,4,0,Jinja Road,3095.5,5.91,1.37,0,None,Fog,2816.12,3018.92,Medium
+22,1,0,Kampala–Gayaza Road,2469.53,19.32,1,0,None,Clouds,3043.74,2470.27,Low
+9,1,0,George Street,2114.41,14.2,1.28,1,Roadworks,Clear,1782.73,2159.1,Medium
+14,1,0,George Street,2106.6,10,1.11,0,None,Fog,2289,2147.37,Medium
+6,1,0,Salaama Road,1054.73,11.87,1.11,0,None,Clear,1239.69,1066.16,Low
+9,0,0,Kampala Northern Bypass Highway,1391.23,19.59,1.34,1,AbruptStop,Rain,1302.68,1541.2,Medium
+15,2,0,Entebbe–Kampala Expressway,2295.54,18.39,1.11,0,None,Clear,2361.13,2390.43,Medium
+9,6,1,Ginnery Road,3066.14,18.23,1.28,0,None,Clear,2869.59,3138.01,Medium
+3,1,0,Rashid Khamis Road,2056.38,,1.04,1,PoliceIntervention,Clear,2681.69,2102.91,High
+14,2,0,Kampala–Jinja Highway,3057.93,6.01,1.26,0,None,Fog,2951.09,3310.77,High
+6,6,1,Ben Kiwanuka Road,1644.48,18.29,0.99,1,PoliceIntervention,Clouds,1943.99,1675.09,Severe
+11,6,1,Bombo Road,996.72,16.05,1.1,0,None,Fog,1244.71,1118.01,High
+18,1,0,Bombo Road,2105.6,9.57,1.43,0,None,Clouds,1473.02,2125.19,High
+5,5,1,Entebbe–Kampala Expressway,2819.15,14.82,1.23,0,None,Clear,2881.26,3124.95,Severe
+15,5,1,Ben Kiwanuka Road,1226.48,17.13,0.98,0,None,Clear,1518.44,1305.38,High
+10,6,1,Salaama Road,1779.76,12.38,1.11,0,None,Clouds,1852.7,1579.57,Severe
+9,6,1,George Street,1359.22,5.86,1.49,0,None,Rain,1272.75,1404.15,High
+0,3,0,Salaama Road,2377.47,22.45,1.01,1,AbruptStop,Rain,2976.27,2587.48,Low
+16,0,0,Entebbe Road (Queensway section),1511.62,4.42,1.47,0,None,nan,1307.23,1435.09,Medium
+14,5,1,Yusuf Lule Road,1749.4,18.29,1.08,0,None,Rain,1968.08,1893.48,High
+8,5,1,Ginnery Road,2844.76,4.13,1.42,0,None,Clear,2642.68,2891.06,Medium
+13,0,0,Kampala Northern Bypass Highway,1470.62,13.04,1.1,0,None,Clouds,1573.08,1513.25,Medium
+6,6,1,Ben Kiwanuka Road,1576.14,17.33,1.02,1,PoliceIntervention,Clouds,2008.17,1614.46,Severe
+21,0,0,Kampala–Jinja Highway,2144.61,15.2,1.32,0,None,Clouds,2043.23,2116.84,Low
+23,1,0,Bombo Road,2374.5,19.81,1.1,0,None,Fog,2373.63,2217.32,Severe
+12,4,0,Kampala–Jinja Highway,1751.78,22.63,1.09,0,None,Clear,1745.57,1613.51,Medium
+20,6,1,Jinja Road,1628.33,19.63,1.02,0,None,Clouds,1913.82,1739.11,Severe
+2,0,0,George Street,1578.27,15.11,0.97,0,None,nan,1899.56,1472.93,High
+2,4,0,Jinja Road,2185.5,,1.14,0,None,nan,2442.69,2184.27,Low
+8,5,1,Ginnery Road,2686.21,3.85,1.28,0,None,nan,2410.22,2677.61,Severe
+11,0,0,Entebbe Road (Queensway section),2226.94,10.84,1.17,0,None,Fog,2686.45,2254.96,High
+0,1,0,Kampala–Mpigi Expressway,2176.91,17.37,1.22,0,None,Rain,2345.6,2398.88,Low
+12,0,0,Jinja Road,1815.05,8.03,1.1,0,,Fog,2000.76,1807.61,Medium
+10,0,0,Kampala–Mpigi Expressway,2340.5,10.77,1.11,1,PoliceIntervention,Clear,2525.82,2197.11,Low
+23,3,0,Kampala–Jinja Highway,1783.23,7.02,1.16,0,None,Fog,2050.82,1878.43,Low
+14,0,0,Entebbe–Kampala Expressway,1579.71,15.99,1.06,0,None,Clouds,1553.05,1480.71,Severe
+21,2,0,Kampala–Gayaza Road,1334.21,14.84,1.02,0,None,Rain,1473.33,1127.04,High
+13,4,0,Kampala–Jinja Highway,2851.75,18.85,1.16,0,None,Clear,3211.24,2766.14,Medium
+20,6,1,Jinja Road,1789.33,19.73,1.2,0,None,Clear,1764.21,1703.11,Medium
+15,3,0,Ginnery Road,3170.76,14.38,1.16,0,None,Rain,3093.04,2968.39,Medium
+11,2,0,Kampala Northern Bypass Highway,2626.44,22.62,0.99,0,None,nan,2953.12,2590.04,High
+11,6,1,Jinja Road,1338.85,14.9,1.01,0,None,nan,1475.21,1390.82,Severe
+9,1,0,Yusuf Lule Road,2948.54,5.64,1.35,1,PoliceIntervention,Clear,2460.9,2952.11,Severe
+18,0,0,Entebbe–Kampala Expressway,1575.58,18.17,1.76,0,None,Rain,1227.07,1657.52,High
+0,1,0,Kampala–Mpigi Expressway,2275.42,18.43,1.08,0,None,Rain,2470.4,2202.52,Medium
+5,5,1,Entebbe–Kampala Expressway,3017.9,16.14,1.37,0,None,Clouds,2894.54,3079.82,Severe
+12,2,0,Yusuf Lule Road,3629.44,7.99,1.31,0,None,Fog,2737.16,3080.23,Low
+2,0,0,Bombo Road,1871.43,14.58,1.14,0,None,nan,2070.2,1955.7,Medium
+15,2,0,Entebbe–Kampala Expressway,2230.57,19.87,1.1,0,None,nan,2607.17,2160.47,Medium
+22,4,0,Kampala Northern Bypass Highway,950.23,9.44,1,0,None,Rain,1247.26,1012.06,High
+21,1,0,George Street,1162.72,16.63,1.1,0,None,Fog,1268.07,1131.37,High
+15,6,1,Kampala Northern Bypass Highway,1568.31,18.89,0.98,0,None,Fog,1856.64,1751.66,Low
+20,6,1,Entebbe Road (Queensway section),985.43,14.94,1.14,0,None,Fog,1241.09,1091.1,Severe
+12,2,0,Ben Kiwanuka Road,2414.97,14.84,1.04,0,None,Clouds,2968.64,2780.31,Severe
+9,2,0,Rashid Khamis Road,1892.33,4.6,1.44,0,None,Rain,1374.01,1803.96,High
+19,6,1,Kampala–Gayaza Road,1712.26,18.15,1.13,0,None,Clouds,1784.27,1658.53,Severe
+17,3,0,Salaama Road,1383.19,6.87,1.4,0,None,Clear,1245.71,1513.42,High
+16,6,1,George Street,2669.58,4.03,1.59,0,None,nan,2022.9,2517.71,Severe
+6,2,0,Kampala–Jinja Highway,2246.04,16.49,1.07,0,None,Clouds,2470.65,2150.31,Medium
+12,0,0,Jinja Road,1745.45,8.25,1.12,0,,Clouds,1935.01,1874.53,High
+21,5,1,George Street,1154.62,6.85,1.19,0,None,nan,1173,1180.3,Severe
+5,1,0,Ben Kiwanuka Road,2589.94,15.11,0.88,0,None,Fog,3027.72,2716.5,High
+6,6,1,Rashid Khamis Road,2018.54,21.22,1.06,0,None,nan,2473.2,2377.35,High
+14,4,0,Jinja Road,1660.55,9.95,1.04,0,None,Clouds,1933.39,1647.67,High
+17,6,1,Kampala–Gayaza Road,1588.61,9.92,1.52,1,AbruptStop,nan,1149.1,1523.79,Severe
+22,4,0,Kampala Northern Bypass Highway,1052.34,10.31,0.98,0,None,Fog,1210.01,966.62,High
+5,2,0,Ben Kiwanuka Road,2891.21,16.64,1.15,0,None,Rain,2878.31,3163.87,Medium
+7,3,0,Salaama Road,3238.84,8.34,1.5,0,None,nan,2626.46,2994.67,Medium
+5,0,0,Kampala–Mpigi Expressway,1637.83,18.05,1.15,1,AbruptStop,Rain,1727.46,1484.66,Severe
+10,4,0,Yusuf Lule Road,1096.85,12.25,1.06,0,None,Clouds,1291.21,1086.53,Medium
+15,0,0,Rashid Khamis Road,2955.54,21.55,1.2,0,None,Fog,2836.28,2839.75,High
+12,3,0,Kampala–Mpigi Expressway,1551.38,4.12,1.32,0,None,Rain,1490.21,1625.74,Severe
+22,1,0,Kampala–Gayaza Road,2311.37,18.45,1.02,0,None,nan,2883.83,2180.66,Low
+13,6,1,Bombo Road,3273.07,14.76,1.27,0,None,Clouds,3012.35,3464.95,Severe
+16,1,0,Bombo Road,2459.33,9.55,1.43,0,None,Fog,1999.84,2609.48,Low
+0,0,0,Salaama Road,2507.69,16.37,0.98,0,None,nan,3003.08,2259.16,Severe
+5,0,0,Kampala–Mpigi Expressway,1531.06,17.64,1.04,1,AbruptStop,Clouds,1772.37,1639.36,Severe
+9,0,0,Kampala Northern Bypass Highway,1451.35,20.65,1.42,1,AbruptStop,Clouds,1200.43,1469.75,Medium
+7,2,0,Ben Kiwanuka Road,3363.24,,1.54,1,Accident,Clear,2745.05,3889.7,Severe
+21,3,0,Entebbe Road (Queensway section),2176.41,12.26,1.1,0,None,Clouds,2475.11,2042.97,Severe
+7,2,0,Ben Kiwanuka Road,3764.83,,1.55,1,Accident,Fog,3097.48,3846.98,Severe
+8,1,0,Ginnery Road,3728.12,3.94,1.67,0,None,Clear,3037.36,4092.35,High
+15,2,0,Entebbe–Kampala Expressway,2344.89,16.69,1.03,0,None,Clouds,2576.83,2214.38,Low
+2,1,0,Kampala–Mpigi Expressway,3057.15,12.99,1.3,0,None,Clouds,2926.72,2927.88,High
+15,2,0,Entebbe–Kampala Expressway,2332.31,16.31,1.05,0,None,Clouds,2497.4,2098.21,Medium
+16,6,1,George Street,2724.16,4.26,1.46,0,None,Fog,2076.15,2656.23,High
+19,6,1,Kampala–Gayaza Road,1707.82,16.53,1.11,0,None,Fog,1877.52,1661.24,Low
+23,6,1,Salaama Road,2930.45,12.99,1.26,0,None,Clear,3015.57,3097.38,Low
+14,0,0,Kampala Northern Bypass Highway,2139.93,11.95,0.98,0,None,Rain,2441.6,2219.23,Severe
+17,1,0,Entebbe Road (Queensway section),1579.48,5.83,1.65,0,None,nan,1127.99,1627.69,Low
+5,2,0,Ben Kiwanuka Road,2833.21,16.93,1.11,0,None,nan,2785.44,2724.62,Severe
+1,3,0,Bombo Road,1185.02,8.68,1.05,0,None,Clear,1498.65,1142.83,Low
+14,4,0,Jinja Road,1709.2,10.82,1.11,0,None,Rain,1760.64,1536.3,Low
