@@ -1,87 +1,101 @@
-Kampala Smart Traffic Dataset
+# 🚦 Smart Traffic Prediction in Kampala City using Machine Learning
 
-## Overview
-A comprehensive traffic dataset containing 500 observations collected from 15 major roads in Kampala City, Uganda. This dataset is designed for traffic congestion analysis and machine learning applications.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-## Dataset Specifications
-- **Records**: 500 observations
-- **Roads**: 15 major arterial roads
-- **Time Period**: Multiple weeks coverage
-- **Features**: 13 original features + 4 engineered features
+A comprehensive machine learning project for predicting traffic congestion levels in Kampala City, Uganda. This repository contains both the curated dataset and the complete analytical pipeline for intelligent traffic management.
 
-## Features Description
-
-### Temporal Features
-- `hour`: Hour of day (0-23)
-- `day_of_week`: Day of week (0-6)
-- `is_weekend`: Weekend indicator (0/1)
-
-### Spatial Features
-- `road_name`: Name of the road segment
-
-### Traffic Flow Metrics
-- `traffic_volume`: Number of vehicles per time period
-- `avg_speed_kmh`: Average vehicle speed in km/h
-- `vehicle_density`: Vehicles per km per lane
-
-### Incident Data
-- `incident_flag`: Presence of traffic incident (0/1)
-- `incident_type`: Type of incident
-
-### Environmental Factors
-- `weather_main`: Weather condition
-
-### Road Infrastructure
-- `road_capacity`: Maximum designed vehicle capacity
-
-### Engineered Features
-- `rolling_mean_3h`: 3-hour rolling average
-- `capacity_utilization`: Volume to capacity ratio
-- `time_period`: Time period of day
-- `day_type`: Type of day
-- `flow_efficiency`: Speed to volume ratio
-
-### Target Variable
-- `congestion_level`: Traffic congestion level (Low, Medium, High, Severe)
-
-## Usage
-This dataset is ideal for:
-- Traffic congestion prediction
-- Machine learning classification
-- Urban mobility research
-- Transportation planning
-
-## Citation
-If you use this dataset in your research, please cite:
-Kampala Smart Traffic Dataset. (2025). Retrieved from https://github.com/David20-source/kampala-traffic-dataset
+## 📁 Repository Structure
+kampala-traffic-dataset/
+├── 📊 kampala-smart-traffic.csv # Primary dataset (500 observations)
+├── 🧠 Smart Traffic Prediction in Kampala with AI and Machine Learning.ipynb
+├── 📄 README.md # Project documentation
+└── ⚖️ LICENSE # MIT License
 
 text
 
-## License
-MIT License
+## 🎯 Project Overview
 
-Copyright (c) 2025 Nyanzwengye David, Ssebaggala Edward, Lwanga Charles
+This research addresses Kampala City's critical urban mobility challenges by developing an intelligent traffic congestion prediction system. The project implements a complete data science pipeline from data collection to deployed machine learning models, categorizing traffic conditions into four distinct levels: **Low, Medium, High, and Severe**.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### Key Achievements
+- **Model Performance**: XGBoost classifier achieved **54.0% accuracy** in multi-class prediction
+- **Feature Engineering**: Created **4 domain-specific features** enhancing predictive power
+- **Comprehensive Analysis**: Full pipeline from data preprocessing to model interpretation
+- **Real-world Application**: Actionable insights for urban traffic management
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 🏗️ Technical Architecture
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### Data Pipeline
+1. **Data Collection**: 500 observations across 15 major arterial roads
+2. **Preprocessing**: Missing value imputation, outlier treatment, data validation
+3. **Feature Engineering**: Domain-driven feature creation
+4. **Model Training**: Ensemble learning with XGBoost and Random Forest
+5. **Evaluation**: Comprehensive performance metrics and interpretation
 
-## Authors
-- Nyanzwengye David
-- Ssebaggala Edward
-- Lwanga Charles
-- Muteesa I Royal University, Department of Information Technology
+### Machine Learning Approach
+- **Problem Type**: Multi-class classification (4 congestion levels)
+- **Algorithms**: XGBoost, Random Forest
+- **Validation**: Stratified 70-30 train-test split
+- **Metrics**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
+
+## 📊 Dataset Specification
+
+### Dataset Overview
+- **Records**: 500 temporal observations
+- **Roads**: 15 major Kampala arterial roads
+- **Coverage**: Multiple weeks capturing daily and weekly patterns
+- **Features**: 13 original + 4 engineered features
+
+### Feature Categories
+
+| Category | Features | Description |
+|----------|----------|-------------|
+| **Temporal** | `hour`, `day_of_week`, `is_weekend` | Time-based patterns |
+| **Spatial** | `road_name` | Geographic context |
+| **Traffic Flow** | `traffic_volume`, `avg_speed_kmh`, `vehicle_density` | Real-time traffic metrics |
+| **Incident Data** | `incident_flag`, `incident_type` | Disruption events |
+| **Environmental** | `weather_main` | Weather conditions |
+| **Infrastructure** | `road_capacity` | Road characteristics |
+| **Engineered** | `capacity_utilization`, `flow_efficiency`, `time_period`, `day_type` | Domain-specific features |
+
+### Target Variable
+- `congestion_level`: Categorical (Low, Medium, High, Severe)
+- **Distribution**: Balanced representation across congestion categories
+
+## 🧠 Machine Learning Implementation
+
+### Model Performance
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| XGBoost | **54.0%** | 0.508 | 0.540 | 0.520 |
+| Random Forest | 52.7% | 0.480 | 0.527 | 0.500 |
+
+### Key Insights
+- **Top Features**: Capacity utilization (12.9%), vehicle density (12.0%), flow efficiency (8.9%)
+- **Best Performer**: XGBoost demonstrated superior classification capability
+- **Critical Detection**: High accuracy in identifying 'Severe' congestion conditions
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+python>=3.8
+jupyter>=1.0.0
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+Installation & Execution
+bash
+# Clone repository
+git clone https://github.com/David20-source/kampala-traffic-dataset.git
+cd kampala-traffic-dataset
+
+# Launch Jupyter notebook
+jupyter notebook "Smart Traffic Prediction in Kampala with AI and Machine Learning.ipynb"
+
+# Execute all cells to reproduce complete analysis
